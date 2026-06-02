@@ -23,7 +23,40 @@ conteudo-sustentavel-texto{
     display: flex;
     align-items:center;
     justify-content: space-between;
-    padding: 60px 5%; /*espaço interno de 60pixels e 5%
+    padding: 60px 5%; /*espaço interno de 60pixels e 5% */
+
 }
 
+ conteudo-sustentavel-titul0 {
+    color: var(--secondary-color);
+    font-weight: bold;
 
+        }
+
+     conteudo-sustentavel-paragrafo {
+font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #7f8c8d;
+        }    
+
+        sustentavel-botao{
+            display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(46, 204, 113, 0.4);
+    transition: all 0.3s;
+        }
+
+        conteudo-sustentavel-imagem{
+            width: 100%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+        
